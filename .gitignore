@@ -1,0 +1,15 @@
+# зависимости и сборка
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# секреты: никогда не коммитить
+.env
+.env*.local
+.vercel
+
+# прочее
+.DS_Store
+npm-debug.log*
